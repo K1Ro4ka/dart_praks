@@ -1,1 +1,3 @@
-# dart_praks
+# movies_app
+
+A new Flutter project.
