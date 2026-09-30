@@ -1,0 +1,25 @@
+name: multimedia_app
+description: "Практическая работа №7: Мультимедиа (Видео с перемоткой, Аудиоплеер, SQLite, Location)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.2
+  audioplayers: ^6.0.0
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  location: ^5.0.3
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
